@@ -7,7 +7,7 @@ Include Firebase Modules:
 Add the necessary Firebase modules directly from the CDN in your HTML file.
 
 
-`
+```
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
   import { getStorage } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-storage.js";
@@ -105,4 +105,4 @@ Add the necessary Firebase modules directly from the CDN in your HTML file.
   }
   
 </script>
-`
+```
